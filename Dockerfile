@@ -1,5 +1,4 @@
-#FROM nvcr.io/nvidia/tensorflow:18.08-py3
-FROM FEAAIPCF:5000/test 
+FROM nvcr.io/nvidia/tensorflow:18.08-py3
 MAINTAINER Eric Teng
 RUN apt-get update
 RUN apt-get install net-tools
